@@ -1,4 +1,3 @@
-import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { WavyBackground } from "@/components/ui/wavy-background";
 
 export default function Home() {
@@ -33,7 +32,7 @@ export default function Home() {
             </WavyBackground>
 
             <div className="w-full h-screen rounded-md z-0 mt-[100vh] bg-slate-800/75 backdrop-blur-md p-5 flex flex-col">
-                <h1 className="text-[3rem] md:text-[4rem] lg:text-[5rem] font-semibold text-slate-300 self-center justify-center">
+                <h1 id="projects" className="text-[3rem] md:text-[4rem] lg:text-[5rem] font-semibold text-slate-300 self-center justify-center">
                     Projects
                 </h1>
             </div>
